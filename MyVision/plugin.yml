@@ -1,0 +1,21 @@
+﻿name: MyVision
+version: 1.1.0
+main: com.ReanKR.MyVision.MyVision
+author: ReanKR
+description: To provide convenient functions in the REAN SERVER
+
+commands:
+  myvision.main:
+    description: §erMyVision Main Commands
+    aliases: [vision, mvision, myvision]
+
+permissions:
+  myvision.*:
+    description: MyVision 명령어를 모두 사용할 수 있는 권한
+    default: true
+  myvision.settime:
+    description: MyVision 명령어를 사용할 수 있는 권한
+    default: true
+  myvision.view:
+    description: MyVision 명령어 도움말을 볼 수 있는 권한
+    default: true
